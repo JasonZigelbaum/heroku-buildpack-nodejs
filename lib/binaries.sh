@@ -59,3 +59,8 @@ install_npm() {
     fi
   fi
 }
+
+install_imagemagick() {
+  echo "Installing imagmagick"
+  apt-get install imagemagick
+}
